@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+swan.checkSession({
+	success: (res) => {
+		${1}
+	},
+	fail: (res) => {
+		${2}
+	},
+	complete: (res) => {
+		${3}
+	}
+})
+]]></content>
+	<tabTrigger>swan.checkSession</tabTrigger>
+	<description>(校验用户当前session_key是否有效)</description>
+	<scope>source.js</scope>
+</snippet>

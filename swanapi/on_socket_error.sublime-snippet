@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+swan.onSocketError((res) => {
+	${1}
+})
+]]></content>
+	<tabTrigger>swan.onSocketError</tabTrigger>
+	<description>(监听WebSocket错误)</description>
+	<scope>source.js</scope>
+</snippet>

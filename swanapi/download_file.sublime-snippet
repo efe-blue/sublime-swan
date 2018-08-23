@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+swan.downloadFile({
+	// 必需
+	url: '${1}',
+	header: {
+		${2}
+	},
+	success: (res) => {
+		// 临时文件路径，下载后的文件会存储到一个临时文件
+		${3:console.log(res.tempFilePath)
+		// 开发者服务器返回的 HTTP 状态码
+		console.log(res.statusCode)}
+	},
+	fail: (res) => {
+		${4}
+	},
+	complete: (res) => {
+		${5}
+	}
+})
+]]></content>
+	<tabTrigger>swan.downloadFile</tabTrigger>
+    <description>(下载文件资源到本地)</description>
+    <scope>source.js</scope>
+</snippet>

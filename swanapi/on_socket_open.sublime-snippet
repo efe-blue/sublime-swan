@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+swan.onSocketOpen((res) => {
+	${1}
+})
+]]></content>
+	<tabTrigger>swan.onSocketOpen</tabTrigger>
+	<description>(监听WebSocket连接打开事件)</description>
+	<scope>source.js</scope>
+</snippet>

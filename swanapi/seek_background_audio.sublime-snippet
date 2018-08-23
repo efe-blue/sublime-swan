@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+swan.seekBackgroundAudio({
+	position: ${1:30},
+	success: (res) => {
+		${2}
+	},
+	fail: (res) => {
+		${3}
+	},
+	complete: (res) => {
+		${4}
+	}
+})
+]]></content>
+	<tabTrigger>swan.seekBackgroundAudio</tabTrigger>
+	<description>(控制音乐播放进度)</description>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+swan.makePhoneCall({
+	phoneNumber: '${1}',  // 必填，需要拨打的电话号码
+	success: (res) => {
+		${2}
+	},
+	fail: (res) => {
+		${3}
+	},
+	complete: (res) => {
+		${4}
+	}
+})
+]]></content>
+	<tabTrigger>swan.makePhoneCall</tabTrigger>
+	<description>(拨打电话)</description>
+	<scope>source.js</scope>
+</snippet>

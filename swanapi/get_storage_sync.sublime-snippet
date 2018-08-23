@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+swan.getStorageSync('${1}')
+]]></content>
+	<tabTrigger>swan.getStorageSync</tabTrigger>
+	<description>(本地缓存:获取数据-同步)</description>
+	<scope>source.js</scope>
+</snippet>

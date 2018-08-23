@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+swan.closeSocket()
+]]></content>
+	<tabTrigger>swan.closeSocket</tabTrigger>
+    <description>(关闭 WebSocket 连接)</description>
+    <scope>source.js</scope>
+</snippet>

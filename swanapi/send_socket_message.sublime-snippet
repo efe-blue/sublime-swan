@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+swan.sendSocketMessage({
+    // 必需
+    data: {
+    	${1}
+    },
+    success: (res) => {
+		${2}
+	},
+	fail: (res) => {
+		${3}
+	},
+	complete: (res) => {
+		${4}
+	}
+})
+]]></content>
+	<tabTrigger>swan.sendSocketMessage</tabTrigger>
+	<description>(用WebSocket发送数据)</description>
+	<scope>source.js</scope>
+</snippet>

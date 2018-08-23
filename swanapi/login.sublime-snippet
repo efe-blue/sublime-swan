@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+swan.login({
+	success: (res) => {
+		${1}
+	},
+	fail: (res) => {
+		${2}
+	},
+	complete: (res) => {
+		${3}
+	}
+})
+]]></content>
+	<tabTrigger>swan.login</tabTrigger>
+	<description>(获取临时登录凭证)</description>
+	<scope>source.js</scope>
+</snippet>

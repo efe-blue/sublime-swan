@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+swan.openDocument({
+	filePath: '${1}',
+	success: (res) => {
+		${2}
+	},
+	fail: (res) => {
+		${3}
+	},
+	complete: (res) => {
+		${4}
+	}
+})
+]]></content>
+	<tabTrigger>swan.openDocument</tabTrigger>
+	<description>(新开页面打开文档)</description>
+	<scope>source.js</scope>
+</snippet>

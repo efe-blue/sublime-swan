@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+swan.chooseLocation({
+	success: (res) => {
+		${1:
+		// 位置名称
+		console.log(res.name);
+		// 详细地址
+		console.log(res.address);
+		// 纬度
+		console.log(res.latitude);
+		// 经度
+		console.log(res.longitude);
+		}
+	},
+	cancel: (res) => {
+		${2}
+	},
+	fail: (res) => {
+		${3}
+	},
+	complete: (res) => {
+		${4}
+	}
+})
+]]></content>
+	<tabTrigger>swan.chooseLocation</tabTrigger>
+	<description>(打开地图选择位置)</description>
+	<scope>source.js</scope>
+</snippet>

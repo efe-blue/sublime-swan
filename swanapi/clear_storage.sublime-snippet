@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+swan.clearStorage()
+]]></content>
+	<tabTrigger>swan.clearStorage</tabTrigger>
+    <description>(本地缓存:清理数据-异步)</description>
+    <scope>source.js</scope>
+</snippet>
