@@ -11,11 +11,11 @@
         ],
         [
             "view:if\tTag",
-            "view s-if=\"{{$1}}\">$0</view>"
+            "view s-if=\"$1\">$0</view>"
         ],
         [
             "view:elif\tTag",
-            "view s-elif=\"{{$1}}\">$0</view>"
+            "view s-elif=\"$1\">$0</view>"
         ],
         [
             "view:else\tTag",
@@ -23,15 +23,15 @@
         ],
         [
             "view:for\tTag",
-            "view s-for=\"{{$1}}\">$0</view>"
+            "view s-for=\"$1\">$0</view>"
         ],
         [
             "view:for:for\tTag",
-            "view s-for=\"{{$1}}\" s-for-index=\"${2:idx}\" s-for-item=\"${3:item}\">$4</view>"
+            "view s-for=\"$1\" s-for-index=\"${2:idx}\" s-for-item=\"${3:item}\">$4</view>"
         ],
         [
             "view:for:key\tTag",
-            "view s-for=\"{{$1}}\" s-for-index=\"${2:idx}\" s-for-item=\"${3:item}\" s-key=\"${4:*this}\">$5</view>"
+            "view s-for=\"$1\" s-for-index=\"${2:idx}\" s-for-item=\"${3:item}\" s-key=\"${4:*this}\">$5</view>"
         ],
         [
             "text:class\tTag",
@@ -1971,6 +1971,25 @@
                 }
             ],
             "docLink": "https://smartprogram.baidu.com/docs/develop/component/open/#web-view"
-        }
+        },
+        "template": {
+            "attrs": [{
+                "name": "name",
+                "type": "string",
+                "def": "",
+                "desc": ""
+            }, {
+                "name": "is",
+                "type": "string",
+                "def": "",
+                "desc": ""
+            }, {
+                "name": "data",
+                "type": "any",
+                "def": "",
+                "desc": ""
+            }],
+            "docLink": "https://smartprogram.baidu.com/docs/develop/framework/view_template/"
+        },
     }
 }

@@ -352,7 +352,7 @@ class TagCompletions(sublime_plugin.EventListener):
 
                 # 不同属性值类型，输出不一样的补全方案
                 if type_value == 'mustache':
-                    comp_value = name + '="{{$1}}"'
+                    comp_value = name + '="$1"'
                 elif type_value == 'prop':
                     comp_value = name
                 elif type_value == 'boolean':

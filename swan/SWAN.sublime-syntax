@@ -86,25 +86,6 @@ contexts:
         - match: '-->'
           scope: punctuation.definition.comment.end.swan
           pop: true
-    # 语法：脚本
-    - match: (<)((?i:wxs))\b
-      captures:
-        1: punctuation.definition.tag.begin.swan
-        2: entity.name.tag.swan
-      push:
-        - meta_scope: meta.tag.swan
-        - match: '/>'
-          scope: punctuation.definition.tag.end.swan
-          pop: true
-        - match: '>'
-          push: Packages/JavaScript/JavaScript.sublime-syntax
-          with_prototype:
-            - match: (?=</wxs>)
-              pop: true
-        - match: (?=</wxs>)
-          scope: punctuation.definition.tag.end.swan
-          pop: true
-        - include: tag-attributes
     # 语法：标签
     - match: (</?)([A-Za-z0-9:_-]+)
       captures:
