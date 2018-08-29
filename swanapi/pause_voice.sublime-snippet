@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swan.pauseVoice()
-]]></content>
-	<tabTrigger>swan.pauseVoice</tabTrigger>
-	<description>(暂停正在播放的语音)</description>
-	<scope>source.js</scope>
-</snippet>

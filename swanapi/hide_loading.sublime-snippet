@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swan.hideLoading()
-]]></content>
-	<tabTrigger>swan.hideLoading</tabTrigger>
-	<description>(隐藏 loading 提示框)</description>
-	<scope>source.js</scope>
-</snippet>

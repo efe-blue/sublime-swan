@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swan.stopBackgroundAudio()
-]]></content>
-	<tabTrigger>swan.stopBackgroundAudio</tabTrigger>
-    <description>(停止播放音乐)</description>
-    <scope>source.js</scope>
-</snippet>

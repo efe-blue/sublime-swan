@@ -368,20 +368,5 @@ class TagCompletions(sublime_plugin.EventListener):
 
             return attr_completions
 
-    # def matchByFuzzy(self, cont, fuzzy):
-    #     # 模糊匹配
-    #     reStr = ''
-    #     for char in fuzzy:
-    #         if char == '.':
-    #             reStr += '\.' + '.*'
-    #         else:
-    #             reStr += char + '.*'
-
-    #     rex = re.compile(reStr)
-    #     result = match(rex, cont)
-
-    #     if not result:
-    #         return False
-    #     else:
-    #         return True
+    
 

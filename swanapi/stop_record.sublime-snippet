@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swan.stopRecord()
-]]></content>
-	<tabTrigger>swan.stopRecord</tabTrigger>
-    <description>(​主动调用停止录音)</description>
-    <scope>source.js</scope>
-</snippet>

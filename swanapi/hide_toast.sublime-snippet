@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swan.hideToast()
-]]></content>
-	<tabTrigger>swan.hideToast</tabTrigger>
-	<description>(隐藏消息提示框)</description>
-	<scope>source.js</scope>
-</snippet>
