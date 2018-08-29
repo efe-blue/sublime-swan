@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "sublime-swan",
+            "description": "Baidu smartApp code highlights and auto completion",
+            "author": "efe-blue",
+            "homepage": "https://github.com/efe-blue/sublime-swan",
+            "last_modified": "2018-8-29",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0",
+                        "url": "https://github.com/efe-blue/sublime-swan"
+                    }
+                ]
+            }
+        }
+    ]
+}
