@@ -4,7 +4,7 @@ Sublime Text 3 syntax highlighting and auto completion for `.swan` file(Baidu 's
 
 ## Install
 
-- Package Control
+- Package Control(Under review, temporarily unavailable)
 
 Search `sublime sawn` via Package Control: Install Package
 
