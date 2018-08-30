@@ -6,7 +6,7 @@ Sublime Text 3 syntax highlighting and auto completion for `.swan` file(Baidu 's
 
 - Package Control(Under review, temporarily unavailable)
 
-Search `sublime sawn` via Package Control: Install Package
+Search `Sublime Swan` via Package Control: Install Package
 
 - Git
 
@@ -24,7 +24,7 @@ Download zip and unzip to Sublime Packages Path.
 		[
 		  {
 		    "characters": "abcdefghijklmnopqrstuvwxyz< :.",
-		    "selector": "text.wxml"
+		    "selector": "text.swan"
 		  }
 		],
 
