@@ -56,3 +56,6 @@ Download zip and unzip to Sublime Packages Path.
             success: function (res) {}
         });
 **Note:** Snippets only include the necesssary keys
+
+## Liscense
+This plugin is published under the [MIT License](https://github.com/efe-blue/sublime-swan/blob/master/LICENSE)

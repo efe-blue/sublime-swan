@@ -653,7 +653,7 @@
                     "name": "bindgetuserinfo",
                     "type": "function",
                     "def": "",
-                    "desc": "用户点击该按钮时，会返回获取到的用户信息，从返回参数的detail中获取到的值同[swan.getUserInfo](https://mp.weixin.qq.com/debug/wxadoc/dev/api/open/##wxgetuserinfoobject)"
+                    "desc": "用户点击该按钮时，会返回获取到的用户信息，从返回参数的detail中获取到的值同[swan.getUserInfo](https://smartprogram.baidu.com/docs/develop/api/open_userinfo/#getUserInfo/)"
                 },
                 {
                     "name": "bindgetphonenumber",
@@ -1410,15 +1410,15 @@
                     "enum": [
                         {
                             "value": "scaleToFill",
-                            "desc": "缩放: 不保持纵横比缩放图片，使图片的宽高完全拉伸至填满 image 元素  原图：![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=201838) 处理后: ![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/1.png?t=201838)"
+                            "desc": "缩放: 不保持纵横比缩放图片，使图片的宽高完全拉伸至填满 image 元素"
                         },
                         {
                             "value": "aspectFit",
-                            "desc": "缩放: 保持纵横比缩放图片，使图片的长边能完全显示出来。也就是说，可以完整地将图片显示出来。  原图：![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=201838) 处理后: ![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/2.png?t=201838)"
+                            "desc": "缩放: 保持纵横比缩放图片，使图片的长边能完全显示出来。也就是说，可以完整地将图片显示出来。"
                         },
                         {
                             "value": "aspectFill",
-                            "desc": "缩放: 保持纵横比缩放图片，只保证图片的短边能完全显示出来。也就是说，图片通常只在水平或垂直方向是完整的，另一个方向将会发生截取。  原图：![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/0.jpg?t=201838) 处理后: ![](https://mp.weixin.qq.com/debug/wxadoc/dev/image/cat/3.png?t=201838)"
+                            "desc": "缩放: 保持纵横比缩放图片，只保证图片的短边能完全显示出来。也就是说，图片通常只在水平或垂直方向是完整的，另一个方向将会发生截取。"
                         },
                         {
                             "value": "widthFix",

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+success: function(res) {
+	${1}
+}
+]]></content>
+	<tabTrigger>success</tabTrigger>
+    <description>snippet(成功回调)</description>
+    <scope>source.js</scope>
+</snippet>
