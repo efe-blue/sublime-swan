@@ -3,6 +3,7 @@
 Sublime Text 3 syntax highlighting and auto completion for `.swan` file(Baidu 'smart program').
 
 Baidu smart program is a new open ability. Developers can quickly develop an samrt program. Through searching, users can be easily acquired and disseminated within the Baidu Apps.
+[document](https://smartprogram.baidu.com/docs/introduction/enter_application/)
 
 ## Install
 
